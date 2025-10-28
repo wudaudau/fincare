@@ -6,6 +6,9 @@ A Django-based web application to manage and streamline financial operations in 
 
 ## Features
 
+- [ ] Per-user login
+- [ ] Log income or spending by category/date
+- [ ] Admin views for reporting
 - [ ] User authentication and role-based access control
 - [ ] Database models for financial records
 - [ ] Logging of financial transactions (income, expenses, payments)
