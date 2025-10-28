@@ -8,6 +8,9 @@ class UserProfile(models.Model):
     bio = models.TextField(blank=True, null=True)
     avatar = models.ImageField(upload_to='avatars/', blank=True, null=True)
 
+    def __str__(self):
+        return super().__str__() + f"Profile of {self.user.username}"
+
 class Transaction(models.Model):
     TRANSACTION_TYPES = [
         ('income', 'Income'),
@@ -21,4 +24,7 @@ class Transaction(models.Model):
     date = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.type.capitalize()} of {self.amount} on {self.date} by {self.user.username}"
 
