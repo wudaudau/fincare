@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'fincare.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fincare_db',  # Replace with your database name
+        'USER': 'your_db_user',  # Replace with your database username
+        'PASSWORD': 'your_db_password',  # Replace with your database password
+        'HOST': 'localhost',  # Replace with your database host (e.g., '127.0.0.1')
+        'PORT': '5432',  # Replace with your database port (default is 5432)
     }
 }
 
