@@ -28,3 +28,9 @@ class Transaction(models.Model):
     def __str__(self):
         return f"{self.type.capitalize()} of {self.amount} on {self.date} by {self.user.username}"
 
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
