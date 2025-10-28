@@ -1,0 +1,6 @@
+<h1>Transactions</h1>
+<ul>
+    {% for transaction in transactions %}
+        <li>{{ transaction.date }} - {{ transaction.type }} - {{ transaction.amount }}</li>
+    {% endfor %}
+</ul>
