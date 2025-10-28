@@ -23,3 +23,11 @@ This application was created and developed by [wudaudau](https://github.com/wuda
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Installation
+
+(placeholder for installation instructions)
+
+## Usage Examples
+
+(placeholder for usage examples)
