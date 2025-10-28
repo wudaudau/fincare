@@ -15,6 +15,7 @@ A Django-based web application to manage and streamline financial operations in 
 - [ ] Dashboard for financial overview and reports
 - [ ] Security measures to protect sensitive financial data
 - [ ] Ready for deployment with Railway
+- [ ] Multi-language support (i18n) (English and Traditional Chinese)
 
 ## Author
 
