@@ -15,3 +15,11 @@ A Django-based web application to manage and streamline financial operations in 
 - [ ] Dashboard for financial overview and reports
 - [ ] Security measures to protect sensitive financial data
 - [ ] Ready for deployment with Railway
+
+## Author
+
+This application was created and developed by [wudaudau](https://github.com/wudaudau/fincare/).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
