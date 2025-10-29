@@ -66,3 +66,8 @@ class URLTests(TestCase):
         url = reverse('transaction_list')
         resolver = resolve(url)
         self.assertEqual(resolver.view_name, 'transaction_list')
+
+
+######
+# Test Forms
+######
