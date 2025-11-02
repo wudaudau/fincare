@@ -128,3 +128,9 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Set login and logout redirect url
+# LOGIN_REDIRECT_URL = '/finance/menu/'
+# LOGOUT_REDIRECT_URL = '/finance/'  # Redirect to the welcome view
+# /accounts/login/
